@@ -1,0 +1,157 @@
+{
+  "site": {
+    "title": "Venkata Sai Kandipati | Senior Java Developer",
+    "logo": "Venkat",
+    "accentColor": "#ff2a2a",
+    "navCta": "Hire Me"
+  },
+
+  "profile": {
+    "name": "Venkata Sai Kandipati",
+    "shortName": "Venkat",
+    "role": "Senior Java Developer",
+    "tagline": "Spring Boot & Cloud",
+    "location": "Johannesburg, South Africa",
+    "email": "venkat6827@gmail.com",
+    "phone": "+27 60 713 9095",
+    "photo": "",
+    "resumeFile": "resume.pdf",
+    "socials": [
+      { "label": "LinkedIn", "url": "" },
+      { "label": "GitHub", "url": "" }
+    ]
+  },
+
+  "hero": {
+    "greeting": "Hi, I'm a",
+    "headline": "Senior Java Developer",
+    "subheading": "I design and build highly available, scalable backend services and microservices with Java, Spring Boot and AWS, for banking, payments and enterprise platforms.",
+    "video": "",
+    "primaryButton": { "label": "View My Experience", "link": "#experience" },
+    "secondaryButton": { "label": "Contact Me", "link": "#contact" }
+  },
+
+  "about": {
+    "heading": "Hello!",
+    "intro": "a backend engineer with 7+ years of experience building reliable, event-driven systems in Java and Spring Boot. I care about clean service design, strong automated testing and production systems that degrade gracefully instead of falling over.",
+    "stats": [
+      { "value": "7+", "label": "Years of experience" },
+      { "value": "3", "label": "Enterprise platforms" },
+      { "value": "AWS", "label": "Certified AI Practitioner" }
+    ]
+  },
+
+  "expertise": {
+    "badge": "My Expertise",
+    "heading": "Building Reliable Backend Systems for Finance & Enterprise",
+    "description": "Combining Java, Spring Boot, cloud and event-driven design to ship services that stay up under real production load.",
+    "closingNote": "Turning ideas into reliable systems!",
+    "items": [
+      {
+        "title": "Backend & Microservices",
+        "text": "Designing independently deployable Java and Spring Boot microservices that communicate over REST, messaging and event-driven flows."
+      },
+      {
+        "title": "Payments & FinTech",
+        "text": "Payment processing, transaction routing, reconciliation, DebiCheck and AVS integrations with strict security and auditability."
+      },
+      {
+        "title": "Cloud & DevOps",
+        "text": "AWS Lambda, Step Functions, SQS/SNS, Docker and Kubernetes, shipped through Azure DevOps, Jenkins and GitHub Actions pipelines."
+      },
+      {
+        "title": "Quality & Reliability",
+        "text": "TDD with JUnit and Mockito, resilience patterns like Retry and Circuit Breaker, and root-cause driven production support."
+      }
+    ]
+  },
+
+  "experience": {
+    "badge": "Career",
+    "heading": "Professional Experience",
+    "jobs": [
+      {
+        "role": "Senior Java Developer",
+        "company": "TechValley (Pty) Ltd",
+        "period": "Jun 2024 – Present",
+        "location": "Johannesburg, South Africa",
+        "project": "Transaction Workflow Orchestrator",
+        "summary": "A payment systems platform for enterprise financial clients covering payment processing, transaction routing, receipting, reconciliation and cash-flow management.",
+        "highlights": [
+          "Built the platform as independently deployable microservices communicating over REST and AWS SQS/SNS, so one payment flow could be released without redeploying the rest.",
+          "Integrated payment gateways, DebiCheck and AVS verification over secure REST APIs, automating end-to-end payment validation.",
+          "Applied Retry, Circuit Breaker and Rate Limiter patterns so a failing downstream provider degrades the workflow instead of stopping it.",
+          "Built event-driven orchestration on AWS Step Functions and Lambda, containerised with Docker for Kubernetes.",
+          "Secured financial data with JWT, role-based access control and AWS Secrets Manager."
+        ],
+        "tech": ["Java", "Spring Boot", "Spring Data JPA", "PostgreSQL", "AWS Lambda", "Step Functions", "Docker", "Kubernetes", "Azure DevOps"]
+      },
+      {
+        "role": "Java Developer",
+        "company": "Genpact",
+        "period": "Apr 2022 – May 2024",
+        "location": "Hyderabad, India",
+        "project": "Risk Manager",
+        "summary": "An enterprise risk-analysis platform surfacing application vulnerabilities through static and dynamic code analysis, with remediation tracking and compliance reporting.",
+        "highlights": [
+          "Extended the Java and Spring Boot layer over MySQL with new features, without disrupting existing consumers.",
+          "Designed the schemas and queries behind risk scoring and reporting, keeping output accurate and responsive under load.",
+          "Secured vulnerability and compliance data with Spring Security and JWT.",
+          "Drove quality with JUnit and Mockito suites, peer review and CI/CD on Git, Maven and Jenkins."
+        ],
+        "tech": ["Java", "Spring Boot", "Spring Security", "JWT", "Hibernate", "MySQL", "Jenkins"]
+      },
+      {
+        "role": "Junior Java Developer",
+        "company": "Genpact",
+        "period": "Mar 2019 – Mar 2022",
+        "location": "Hyderabad, India",
+        "project": "OpsHub",
+        "summary": "A centralised operations platform integrating GE Digital's Historian and iFIX products to collect, process and visualise industrial data.",
+        "highlights": [
+          "Developed backend features in Java, Spring Boot, JPA and Hibernate for industrial data processing and reporting.",
+          "Wrote and tested the MySQL queries powering the monitoring dashboards used by manufacturing teams.",
+          "Supported integration of GE Historian and iFIX systems for real-time data collection."
+        ],
+        "tech": ["Java", "Spring Boot", "JPA", "Hibernate", "MySQL", "Apache Tomcat", "Postman"]
+      }
+    ]
+  },
+
+  "skills": {
+    "badge": "Technical Stack",
+    "heading": "Technologies I Work With",
+    "description": "Enterprise backend expertise across Java, cloud, data and delivery.",
+    "categories": [
+      { "category": "Core Java", "skills": ["Java", "Collections", "Streams", "Lambdas", "Generics", "OOP", "SOLID", "Design Patterns"] },
+      { "category": "Backend & APIs", "skills": ["Spring Boot", "Spring MVC", "Spring Data JPA", "Spring AOP", "REST APIs", "SOAP", "Swagger / OpenAPI", "Microservices", "Kafka", "RabbitMQ"] },
+      { "category": "Cloud & AWS", "skills": ["Lambda", "Step Functions", "SQS", "SNS", "CloudWatch", "Secrets Manager", "EC2", "S3", "RDS", "Azure"] },
+      { "category": "Databases", "skills": ["PostgreSQL", "Oracle", "MySQL", "SQL Server", "DB2", "MongoDB", "Query Optimisation"] },
+      { "category": "DevOps & CI/CD", "skills": ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Azure DevOps", "Maven", "Git"] },
+      { "category": "Testing & Security", "skills": ["JUnit", "Mockito", "TDD", "Postman", "Spring Security", "JWT", "RBAC", "Resilience4j"] },
+      { "category": "AI & AI-Assisted Dev", "skills": ["Amazon Bedrock", "Spring AI", "RAG", "Prompt Engineering", "Claude", "Cursor", "GitHub Copilot"] },
+      { "category": "Front-End", "skills": ["JavaScript", "React", "Angular", "HTML5", "CSS3"] }
+    ]
+  },
+
+  "certifications": {
+    "badge": "Credentials",
+    "heading": "Certifications & Education",
+    "items": [
+      { "title": "AWS Certified AI Practitioner", "issuer": "Amazon Web Services", "year": "", "link": "" },
+      { "title": "BCom (Computer Applications)", "issuer": "Acharya Nagarjuna University, India", "year": "", "link": "" }
+    ]
+  },
+
+  "contact": {
+    "label": "Reach Me",
+    "bigText": "Contact",
+    "intro": "Open to senior backend and Java roles. Send a message and it will open in your email app, addressed to me."
+  },
+
+  "footer": {
+    "left": ["Java & Spring Boot", "Microservices & Cloud", "Payments & FinTech"],
+    "middle": "7+ years of experience",
+    "right": "Open to opportunities"
+  }
+}
