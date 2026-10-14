@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Venkata Sai Kandipati | Senior Java Developer",
+    "title": "Venkata Sai Kandipati | Java Full Stack  Developer",
     "logo": "Venkat",
     "accentColor": "#ff2a2a",
     "navCta": "Hire Me"
@@ -9,7 +9,7 @@
   "profile": {
     "name": "Venkata Sai Kandipati",
     "shortName": "Venkat",
-    "role": "Senior Java Developer",
+    "role": "Java Full Stack Developer",
     "tagline": "Spring Boot & Cloud",
     "location": "Johannesburg, South Africa",
     "email": "venkat6827@gmail.com",
@@ -24,7 +24,7 @@
 
   "hero": {
     "greeting": "Hi, I'm a",
-    "headline": "Senior Java Developer",
+    "headline": "Java Full Stack Developer",
     "subheading": "I design and build highly available, scalable backend services and microservices with Java, Spring Boot and AWS, for banking, payments and enterprise platforms.",
     "video": "",
     "primaryButton": { "label": "View My Experience", "link": "#experience" },
