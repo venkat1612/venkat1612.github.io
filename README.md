@@ -1,7 +1,6 @@
 # Venkata Sai Kandipati — Portfolio
 
-A personal portfolio site built with React, Vite, Tailwind CSS, Framer Motion and AOS,
-styled after [Sushmitadasari/Video_portfolio](https://github.com/Sushmitadasari/Video_portfolio).
+A personal portfolio site built with React, Vite, Tailwind CSS, Framer Motion and AOS.
 
 **All of the text on the site lives in one file: [`src/content.json`](src/content.json).**
 You never need to touch the React code to update your site.
